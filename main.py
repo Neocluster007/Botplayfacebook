@@ -85,7 +85,7 @@ schedule.every().day.at(EVENING_RUN).do(job_sunset)
 
 # --- ลูปการทำงานหลัก (Main Loop) ---
 print("Scheduler is running. Press Ctrl+C to stop.")
-
+ 
 #job_thaifood()
 
 #PostFacebook.postFacebook("terst","E:\BOT\Botplayfacebook\source\ThaiFood.jpg")
