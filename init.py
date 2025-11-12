@@ -33,7 +33,7 @@ from google.oauth2.service_account import Credentials
 
 
 try:
-    GEMINI_API_KEY = "AIzaSyCrmJGlqOoAk1TkjY29XE_CKSaOdpiABdc"
+    GEMINI_API_KEY = ""
     genaiA.configure(api_key=GEMINI_API_KEY)
 except ValueError as e:
     print(e)
